@@ -1,0 +1,13 @@
+### Defaults synclient ###
+# synclient TapButton2=3
+# synclient TapButton3=0
+# synclient ClickFinger2=3
+# synclient ClickFinger3=0
+# synclient HorizTwoFingerScroll=1
+# synclient VertTwoFingerScroll=1
+
+synclient TapButton3=0
+synclient ClickFinger3=0
+
+# Make sure touchegg is installed
+touchegg &
