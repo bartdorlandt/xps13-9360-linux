@@ -8,6 +8,12 @@
 
 synclient TapButton3=0
 synclient ClickFinger3=0
+synclient TapButton5=0
+synclient ClickFinger5=0
 
-# Make sure touchegg is installed
+#synclient HorizEdgeScroll=1
+#synclient HorizTwoFingerScroll=1
+#synclient CircularScrolling=1
+synclient PalmDetect=1
+
 touchegg &
