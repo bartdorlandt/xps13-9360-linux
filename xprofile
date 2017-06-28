@@ -14,6 +14,7 @@ synclient ClickFinger5=0
 #synclient HorizEdgeScroll=1
 #synclient HorizTwoFingerScroll=1
 #synclient CircularScrolling=1
-synclient PalmDetect=1
+#synclient PalmDetect=0
+#synclient PalmDetect=1
 
 touchegg &
