@@ -1,0 +1,10 @@
+** Install the following package and start it. 
+
+sudo add-apt-repository ppa:atareao/atareao  
+sudo apt-get update  
+sudo apt-get install touchpad-indicator
+
+** Go to actions and select "disable trackpad while typing". 
+**  Choose your delay. I have it set to 800ms.
+** go to general to start it at boot and hidden.
+
