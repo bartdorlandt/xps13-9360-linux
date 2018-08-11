@@ -17,4 +17,9 @@ synclient ClickFinger5=0
 #synclient PalmDetect=0
 #synclient PalmDetect=1
 
+# disable touchpad while typing
+#/usr/bin/pkill syndaemon
+#/usr/bin/syndaemon -i 0.4 -K -t -d
+#syndaemon -i 0.4 -K -R -d
+
 touchegg &
