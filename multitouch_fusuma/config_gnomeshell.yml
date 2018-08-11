@@ -1,21 +1,30 @@
+cat config_gnomeshell.yml
 swipe:
-  3: 
-    left: 
-      command: 'xdotool key alt+Left'
-    right: 
-      command: 'xdotool key alt+Right'
-    up: 
-      command: 'xdotool key ctrl+alt+Down'
-    down: 
-      command: 'xdotool key ctrl+alt+Up'
+  3:
+  #     left:
+  #       command: 'xdotool key alt+Left'
+  #     right:
+  #       command: 'xdotool key alt+Right'
+  #     up:
+  #       command: 'xdotool key ctrl+alt+Down'
+  #     down:
+  #       command: 'xdotool key ctrl+alt+Up'
+    left:
+      command: 'xdotool key Super+Page_Down'
+    right:
+      command: 'xdotool key Super+Page_Up'
+    up:
+      command: 'xdotool key Super+Page_Down'
+    down:
+      command: 'xdotool key Super+Page_Up'
   4:
-    left: 
+    left:
       command: 'xdotool key super'
-    right: 
+    right:
       command: 'xdotool key super'
-    up: 
+    up:
       command: 'xdotool key super+h'
-    down: 
+    down:
       command: 'xdotool key super+d'
 pinch:
   in:
@@ -30,3 +39,4 @@ threshold:
 interval:
   swipe: 0.8
   pinch: 0.1
+
