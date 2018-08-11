@@ -1,0 +1,22 @@
+
+link: https://github.com/iberianpig/fusuma
+
+TL;DR;
+
+sudo gpasswd -a $USER input
+sudo apt-get install libinput-tools xdotool
+sudo gem install fusuma
+
+gsettings set org.gnome.desktop.peripherals.touchpad send-events enabled
+
+mkdir -p ~/.config/fusuma
+
+# place the configuration file(s)
+# Make a symlink or rename it to config.yml in ~/.config/fusuma
+
+
+# Don't forget to add it to your startup.
+
+# Update fusuma
+sudo gem update fusuma
+
